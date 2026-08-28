@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia D. Elazegui - Digital Business Card</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-black sm:bg-[#09090b] font-['Helvetica_Neue',Arial,sans-serif] h-[100dvh] w-full flex justify-center sm:items-center overflow-hidden m-0 p-0 antialiased">
+    <div class="w-full h-full sm:h-[720px] sm:max-h-[90dvh] sm:max-w-[400px] bg-[#18181b] sm:rounded-[24px] shadow-none sm:shadow-[0_20px_40px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col relative mx-auto">
+        
+        <!-- TOP HEADER SECTION -->
+        <div class="bg-[#686058] text-white pt-10 px-5 pb-[30px] text-center shrink-0">
+            <img src="./NadiaD-Profile.jpg" alt="Nadia D. Elazegui" class="w-[120px] h-[120px] rounded-full border-4 border-white mx-auto mb-4 bg-[#e5e7eb] object-cover flex items-center justify-center overflow-hidden" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Nadia+Elazegui&background=ffffff&color=686058&size=128';"/>
+            <h1 class="text-[24px] font-bold m-0 mb-1 tracking-[-0.01em]">Nadia D. Elazegui</h1>
+            <p class="text-[14px] font-light opacity-90 mb-6">Property Specialist | Shang Properties</p>
+            
+            <!-- Horizontal Split Bar -->
+            <div class="flex border-t border-white/20">
+                <a href="tel:+639452654466" class="flex-1 p-4 text-white font-semibold text-[13px] flex items-center justify-center gap-2 transition-colors hover:bg-white/10 border-r border-white/20">
+                    <i class="fa-solid fa-phone text-lg"></i>
+                    CALL
+                </a>
+                <a href="mailto:nadia.elazegui@shangproperties.com" class="flex-1 p-4 text-white font-semibold text-[13px] flex items-center justify-center gap-2 transition-colors hover:bg-white/10">
+                    <i class="fa-solid fa-envelope text-lg"></i>
+                    EMAIL
+                </a>
+            </div>
+        </div>
+
+        <!-- BOTTOM DETAILS SECTION -->
+        <div class="bg-[#18181b] flex-grow p-6 flex flex-col gap-5 overflow-y-auto">
+                
+            <!-- Mobile -->
+            <a href="tel:+639452654466" class="flex items-center gap-4 no-underline cursor-pointer group">
+                <div class="w-9 h-9 bg-[#27272a] rounded-lg flex items-center justify-center shadow-md shrink-0 text-[#a1a1aa] group-hover:bg-[#3f3f46] transition-colors border border-white/5">
+                    <i class="fa-solid fa-mobile-screen-button text-[18px]"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-[14px] text-[#f4f4f5] font-medium">+63 9452654466</span>
+                    <span class="text-[11px] text-[#a1a1aa] uppercase tracking-[0.02em]">Mobile</span>
+                </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:nadia.elazegui@shangproperties.com" class="flex items-center gap-4 no-underline cursor-pointer group">
+                <div class="w-9 h-9 bg-[#27272a] rounded-lg flex items-center justify-center shadow-md shrink-0 text-[#a1a1aa] group-hover:bg-[#3f3f46] transition-colors border border-white/5">
+                    <i class="fa-solid fa-envelope text-[18px]"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-[14px] text-[#f4f4f5] font-medium">nadia.elazegui@shangproperties.com</span>
+                    <span class="text-[11px] text-[#a1a1aa] uppercase tracking-[0.02em]">Email</span>
+                </div>
+            </a>
+
+            <!-- Company -->
+            <div class="flex items-center gap-4">
+                <div class="w-9 h-9 bg-[#27272a] rounded-lg flex items-center justify-center shadow-md shrink-0 text-[#a1a1aa] border border-white/5">
+                    <i class="fa-solid fa-building text-[18px]"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-[14px] text-[#f4f4f5] font-medium">Shang Properties</span>
+                    <span class="text-[11px] text-[#a1a1aa] uppercase tracking-[0.02em]">Property Specialist</span>
+                </div>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="mt-auto pb-[100px]">
+                <h3 class="text-[12px] font-bold text-[#71717a] uppercase tracking-[0.1em] mb-3">Social Media</h3>
+                <div class="flex gap-3 items-center">
+                    <a href="https://www.facebook.com/profile.php?id=61567313849789" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-[#686058] rounded-full flex items-center justify-center text-white transition-transform hover:scale-105">
+                        <i class="fa-brands fa-facebook-f text-lg"></i>
+                    </a>
+                    <a href="viber://chat?number=%2B639452654466" class="ml-auto bg-[#7360f2] text-white py-2 px-4 rounded-[20px] text-[12px] font-semibold flex items-center gap-1.5 transition-transform hover:scale-105">
+                        <i class="fa-brands fa-viber text-[14px]"></i>
+                        VIBER
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- VCARD DOWNLOAD SCRIPT BLOCK -->
+        <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-[#18181b] via-[#18181b]/90 to-transparent flex justify-center pointer-events-none">
+            <button id="downloadVCardBtn" class="pointer-events-auto bg-[#ad8a19] text-white border-none py-4 px-8 rounded-[50px] font-bold text-[14px] cursor-pointer shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] w-full tracking-[0.05em] flex items-center justify-center gap-2.5 hover:opacity-90 transition-opacity">
+                <i class="fa-solid fa-address-card text-lg"></i>
+                DOWNLOAD VCARD
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('downloadVCardBtn').addEventListener('click', function() {
+            const vcardData = `BEGIN:VCARD
+VERSION:3.0
+FN:Nadia D. Elazegui
+N:Elazegui;Nadia;D.;;
+ORG:Shang Properties
+TITLE:Property Specialist
+TEL;TYPE=CELL,VOICE:+639452654466
+EMAIL;TYPE=WORK,INTERNET:nadia.elazegui@shangproperties.com
+URL:https://www.facebook.com/profile.php?id=61567313849789
+END:VCARD`;
+
+            const blob = new Blob([vcardData], { type: 'text/vcard' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'Nadia_Elazegui.vcf';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        });
+    </script>
+</body>
+</html>
